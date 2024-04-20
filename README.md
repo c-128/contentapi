@@ -56,5 +56,8 @@ ItemStack stack = new ItemStack(Material.AIR);
 boolean isCustom = itemRegistry.isCustomContent(stack);
 ```
 
+## Support
+This plugin integrates with [Oraxen](https://github.com/oraxen/oraxen) by default. I plan on adding more plugins later.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
