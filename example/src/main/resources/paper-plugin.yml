@@ -1,0 +1,10 @@
+name: Example
+version: '${version}'
+main: com.c64.contentapi.example.Example
+api-version: '1.20'
+dependencies:
+  server:
+    ContentAPI:
+      load: 'BEFORE'
+      required: true
+      join-classpath: true
