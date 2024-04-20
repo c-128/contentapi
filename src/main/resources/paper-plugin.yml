@@ -1,0 +1,11 @@
+name: 'ContentAPI'
+version: '${version}'
+description: 'A plugin to simplify compatibility between plugins adding custom content'
+main: 'com.c64.contentapi.impl.ContentAPIPlugin'
+api-version: '1.20'
+dependencies:
+  server:
+    Oraxen:
+      load: 'BEFORE'
+      required: false
+      join-classpath: true
