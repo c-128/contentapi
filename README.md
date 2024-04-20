@@ -9,10 +9,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly "com.github.c-128:contentapi:version"
+    compileOnly "com.github.c-128:contentapi:latest_commit"
 }
 ```
-You can find the latest version in the releases tab.
 
 2. Add the plugin as a dependency in your `paper-plugin.yaml`:
 ```yaml
